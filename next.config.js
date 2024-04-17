@@ -12,16 +12,13 @@ const config = {
     eslint: {
         ignoreDuringBuilds: true,
     },
-    // images: {
-    //     remotePatterns: [
-    //         {
-    //             protocol: 'https',
-    //             hostname: 'utfs.io',
-    //             port: '',
-    //             pathname: '/f',
-    //         }
-    //     ],
-    // },
+    images: {
+        remotePatterns: [
+            {
+                hostname: 'utfs.io',
+            }
+        ],
+    },
 };
 
 export default config;
