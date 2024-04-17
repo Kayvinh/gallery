@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { db } from "~/server/db";
 
+
 const mockUrls = [
   "https://utfs.io/f/5aec52d8-05cc-4f33-a2c0-7c45de921cd3-2je7ul.png",
   "https://utfs.io/f/483ec3b7-e984-4def-8eba-efb571e88728-7zd65c.png",
